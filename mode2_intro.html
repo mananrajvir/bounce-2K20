@@ -1,0 +1,58 @@
+<html>
+<head>
+<title> Space Mode </title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+@font-face
+{
+font-family:"ArcadeFont";
+src: url("fonts/ARCADE_R.ttf");
+}
+@font-face
+{
+font-family:"ArcadeFont2";
+src: url("fonts/ARCADE_I.ttf");
+}
+body
+{
+background-image:url("media/background4.jpg");
+}
+h2,h4
+{
+font-family:"ArcadeFont2";
+color:white;
+text-align:center;
+}
+#pt
+{
+font-family:"ArcadeFont";
+color:white;
+text-align:center;
+font-size:45px;
+}
+</style>
+<head>
+<body>
+<h1 id="pt"> Space Mode </h1>
+<div style="background-image: linear-gradient(to right, rgba(180,180,180,1), rgba(180,180,180,0));height:370;">
+<div style="height:370;width:600px;float:left;margin-left:180px">
+<h2 style="color:Black";> Gravity </h2>
+<img src = "media/gravity.gif" style="height:240px;display: block; margin-left: auto; margin-right: auto;">
+</div>
+<div style="height:370px;width:600px;float:left">
+<h2 style="color:White"> No Gravity </h2>
+<img src = "media/nogravity.gif" style="height:240px;display: block; margin-left: auto; margin-right: auto;">
+</div>
+</div>
+<div style="height:200px;width:1000px;margin-top:20px;font-size:20px">
+<h3 style="color:white;margin-left:25px"> Instructions: </h3>
+<ol style="color:white">
+<li> Click on the buttons to turn gravity on or off.
+<li> Avoid the Obstacles!
+<li> Have Fun
+</ol>
+<p style="color:white; text-align:center; border: 2px solid gold;"> Hint: You can change your direction quicker, when you are at the center, rather than the top or bottom. The gravity is stronger at the extremes, so press the button multiple times if you are stuck at the top / bottom. </p>
+<button onclick="location.href='mode2.html'" type="button" style="display:block;margin-left:25px;font-size:20px"> <b>Start Playing!</b> </button> 
+</div>
+</body>
+</html>
